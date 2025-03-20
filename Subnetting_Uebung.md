@@ -26,7 +26,7 @@ Erstelle 4 Subnetze mit der Mindestanzahl an nutzbaren Hosts:
 
 ### **Lösung:**
 - Jedes Subnetz hat die Subnetzmaske **/27 (255.255.255.224)**.
-- Die Subnetz-Adressen sind:
+- Subnetz-Adressen:
 
 | Subnetz | Netzwerkadresse | Broadcastadresse  | Hosts |
 |---------|----------------|------------------|----------------------|
@@ -55,7 +55,7 @@ Erstelle 4 Subnetze mit der Mindestanzahl an nutzbaren Hosts:
 ## Übung 4: Subnetzmaske für 17.0.0.0 mit 10 Subnetzen und mindestens 12 Hosts
 
 - Benötigte Adressen: mindestens **14 (12 nutzbare Hosts)**
-- Ein **/28-Netz (255.255.255.240)** erfüllt diese Bedingung.
+- Ein **/28-Netz (255.255.255.240)** passt.
 - Die Subnetzmaske für 10 Subnetze ist **255.255.255.240**.
 
 ---
