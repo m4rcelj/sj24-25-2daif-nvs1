@@ -13,7 +13,7 @@ Erstelle 4 Subnetze mit der Mindestanzahl an nutzbaren Hosts:
 
 ### **Lösung:**
 
-| Netz  | Netzwerkadresse  | Subnetzmaske | Broadcastadresse | Nutzbare Hosts        |
+| Netz  | Netzwerkadresse  | Subnetzmaske | Broadcastadresse | Hosts |
 |-------|-----------------|--------------|------------------|-----------------------|
 | A     | 192.168.0.0     | /27 (255.255.255.224) | 192.168.0.31  | 192.168.0.1 - 192.168.0.30 |
 | B     | 192.168.0.32    | /28 (255.255.255.240) | 192.168.0.47  | 192.168.0.33 - 192.168.0.46 |
@@ -28,7 +28,7 @@ Erstelle 4 Subnetze mit der Mindestanzahl an nutzbaren Hosts:
 - Jedes Subnetz hat die Subnetzmaske **/27 (255.255.255.224)**.
 - Die Subnetz-Adressen sind:
 
-| Subnetz | Netzwerkadresse | Broadcastadresse  | Nutzbare Hosts       |
+| Subnetz | Netzwerkadresse | Broadcastadresse  | Hosts |
 |---------|----------------|------------------|----------------------|
 | 1       | 193.170.20.0   | 193.170.20.31    | 193.170.20.1 - 193.170.20.30 |
 | 2       | 193.170.20.32  | 193.170.20.63    | 193.170.20.33 - 193.170.20.62 |
@@ -45,7 +45,7 @@ Erstelle 4 Subnetze mit der Mindestanzahl an nutzbaren Hosts:
 
 ### **Lösung:**
 
-| Subnetz | Netzwerkadresse | Subnetzmaske | Broadcastadresse | Nutzbare Hosts |
+| Subnetz | Netzwerkadresse | Subnetzmaske | Broadcastadresse | Hosts |
 |---------|----------------|--------------|------------------|---------------|
 | 1       | 172.28.40.0    | /27          | 172.28.40.31     | 172.28.40.1 - 172.28.40.30 |
 | 2       | 172.28.40.32   | /27          | 172.28.40.63     | 172.28.40.33 - 172.28.40.62 |
